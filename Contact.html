@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — AI Verse</title>
+    <meta
+      name="description"
+      content="Suggest a tool, report an issue, or get in touch with the AI Verse team."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!--  HEADER / NAV  -->
+    <header class="site-header">
+      <nav class="nav-container">
+        <a href="index.html" class="logo" aria-label="AI Verse Home">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">AI<strong>Verse</strong></span>
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <a href="tools.html" class="nav-cta">Explore Tools</a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </nav>
+      <div class="mobile-nav" role="list">
+        <a href="index.html">Home</a>
+        <a href="tools.html">Tools</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <a href="tools.html" class="nav-cta">Explore Tools</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- PAGE HERO -->
+      <section class="page-hero" aria-labelledby="page-heading">
+        <h1 id="page-heading">Get in Touch</h1>
+        <p>
+          Found a great tool we're missing? Spotted a broken link? Tell us
+          below.
+        </p>
+      </section>
+
+      <section class="contact-section" aria-labelledby="form-heading">
+        <form class="contact-form" novalidate>
+          <h2 id="form-heading" class="visually-hidden">Contact form</h2>
+
+          <p class="form-success" role="status">
+            Thanks! Your message has been received — we'll get back to you soon.
+          </p>
+
+          <div class="form-row">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              data-required
+            />
+            <span
+              class="form-error"
+              data-error-for="name"
+              aria-live="polite"
+            ></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              data-required
+            />
+            <span
+              class="form-error"
+              data-error-for="email"
+              aria-live="polite"
+            ></span>
+          </div>
+
+          <div class="form-row">
+            <label for="reason">Reason for Contact</label>
+            <select id="reason" name="reason">
+              <option value="suggest">Suggest a new tool</option>
+              <option value="bug">Report a broken link / bug</option>
+              <option value="partnership">Partnership inquiry</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us more…"
+              data-required
+            ></textarea>
+            <span
+              class="form-error"
+              data-error-for="message"
+              aria-live="polite"
+            ></span>
+            <span class="form-hint"
+              >This is a static demo form — no message is actually sent.</span
+            >
+          </div>
+
+          <button type="submit" class="btn-primary form-submit">
+            Send Message
+          </button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <span class="tool-icon" aria-hidden="true">✉️</span>
+            <div>
+              <h3>Email Us</h3>
+              <p>For general questions or tool submissions.</p>
+              <a href="mailto:hello@aiverse.example">hello@aiverse.example</a>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <span class="tool-icon" aria-hidden="true">💬</span>
+            <div>
+              <h3>Suggest a Tool</h3>
+              <p>
+                Know an AI tool that deserves a spot in the directory? Use the
+                form and pick "Suggest a new tool."
+              </p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <span class="tool-icon" aria-hidden="true">🐛</span>
+            <div>
+              <h3>Report an Issue</h3>
+              <p>
+                Broken link or outdated info? Let us know so we can fix it in
+                the next weekly update.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="AI Verse Home">
+            <span class="logo-icon">⬡</span>
+            <span class="logo-text">AI<strong>Verse</strong></span>
+          </a>
+          <p>
+            Curating the best AI tools for builders, creators, and thinkers.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h3 class="footer-nav-title">Directory</h3>
+          <ul role="list">
+            <li><a href="tools.html#writing">Writing Tools</a></li>
+            <li><a href="tools.html#image">Image Tools</a></li>
+            <li><a href="tools.html#code">Code Tools</a></li>
+            <li><a href="tools.html#video">Video & Audio</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav" aria-label="Secondary footer navigation">
+          <h3 class="footer-nav-title">Info</h3>
+          <ul role="list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#trending">Trending</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2026 AIVerse — Frontend Development Project | DecodeLabs Batch 2026
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

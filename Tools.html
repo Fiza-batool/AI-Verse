@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All AI Tools — AI Verse Directory</title>
+    <meta
+      name="description"
+      content="Browse 50+ AI tools across writing, image, code, video, and audio. Search and filter to find the right tool fast."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Outfit:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!--  HEADER / NAV  -->
+    <header class="site-header">
+      <nav class="nav-container">
+        <a href="index.html" class="logo" aria-label="AI Verse Home">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">AI<strong>Verse</strong></span>
+        </a>
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tools.html" aria-current="page">Tools</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="tools.html" class="nav-cta">Explore Tools</a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </nav>
+      <div class="mobile-nav" role="list">
+        <a href="index.html">Home</a>
+        <a href="tools.html" aria-current="page">Tools</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="tools.html" class="nav-cta">Explore Tools</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- PAGE HERO -->
+      <section class="page-hero" aria-labelledby="page-heading">
+        <h1 id="page-heading">All AI Tools</h1>
+        <p>
+          Search by name or description, or filter by category. 50+ tools,
+          updated weekly.
+        </p>
+      </section>
+
+      <!-- ========== FULL TOOLS GRID ========== -->
+      <section class="tools-section" id="tools" aria-labelledby="tools-heading">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">The Full List</p>
+            <h2 id="tools-heading" class="visually-hidden">All AI Tools</h2>
+          </div>
+        </div>
+
+        <!-- Search + filter toolbar -->
+        <div class="tools-toolbar">
+          <div class="search-input-wrap">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <label for="tool-search" class="visually-hidden"
+              >Search tools</label
+            >
+            <input
+              type="text"
+              id="tool-search"
+              class="search-input"
+              placeholder="Search tools by name or description…"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <ul
+          class="category-pills"
+          role="list"
+          aria-label="Filter by category"
+          style="max-width: var(--max-w); margin: 0 auto 2.5rem"
+        >
+          <li><a href="#" class="pill active" data-filter="all">All</a></li>
+          <li><a href="#" class="pill" data-filter="writing">✍️ Writing</a></li>
+          <li><a href="#" class="pill" data-filter="image">🎨 Image</a></li>
+          <li><a href="#" class="pill" data-filter="code">💻 Code</a></li>
+          <li>
+            <a href="#" class="pill" data-filter="video">🎬 Video & Audio</a>
+          </li>
+        </ul>
+
+        <p class="no-results">
+          No tools match your search. Try a different keyword or category.
+        </p>
+
+        <!-- Writing -->
+        <div class="category-block" id="writing" data-category="writing">
+          <h3 class="category-title">
+            <span aria-hidden="true">✍️</span> Writing & Content
+          </h3>
+          <div class="tools-grid">
+            <article class="tool-card-sm" aria-label="Claude by Anthropic">
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🧠</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Claude</h4>
+              <p class="tool-maker-sm">Anthropic</p>
+              <p class="tool-desc-sm">
+                Thoughtful AI assistant for writing, analysis, and complex
+                reasoning with strong safety focus.
+              </p>
+              <a
+                href="https://claude.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article class="tool-card-sm" aria-label="Jasper AI writing tool">
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">✨</span>
+                <span class="badge badge-paid">Paid</span>
+              </div>
+              <h4 class="tool-name-sm">Jasper</h4>
+              <p class="tool-maker-sm">Jasper AI</p>
+              <p class="tool-desc-sm">
+                AI writing platform built for marketing teams — blogs, ads,
+                emails, and social posts at scale.
+              </p>
+              <a
+                href="https://jasper.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Copy.ai content generation"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">📝</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Copy.ai</h4>
+              <p class="tool-maker-sm">Copy.ai Inc.</p>
+              <p class="tool-desc-sm">
+                Generate marketing copy, product descriptions, and sales emails
+                with one click.
+              </p>
+              <a
+                href="https://copy.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Grammarly writing assistant"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🔤</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Grammarly</h4>
+              <p class="tool-maker-sm">Grammarly Inc.</p>
+              <p class="tool-desc-sm">
+                AI-powered grammar checker and writing enhancer that works
+                everywhere you write.
+              </p>
+              <a
+                href="https://grammarly.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="category-block" id="image" data-category="image">
+          <h3 class="category-title">
+            <span aria-hidden="true">🎨</span> Image Generation
+          </h3>
+          <div class="tools-grid">
+            <article
+              class="tool-card-sm"
+              aria-label="DALL-E 3 image generation"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🖼️</span>
+                <span class="badge badge-paid">Paid</span>
+              </div>
+              <h4 class="tool-name-sm">DALL-E 3</h4>
+              <p class="tool-maker-sm">OpenAI</p>
+              <p class="tool-desc-sm">
+                Creates detailed, accurate images from text prompts. Built
+                directly into ChatGPT.
+              </p>
+              <a
+                href="https://openai.com/dall-e-3"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Stable Diffusion image AI"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🌊</span>
+                <span class="badge badge-free">Free</span>
+              </div>
+              <h4 class="tool-name-sm">Stable Diffusion</h4>
+              <p class="tool-maker-sm">Stability AI</p>
+              <p class="tool-desc-sm">
+                Open-source image generation model. Run locally or use online —
+                full creative control.
+              </p>
+              <a
+                href="https://stability.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Adobe Firefly design tool"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🦋</span>
+                <span class="badge badge-paid">Paid</span>
+              </div>
+              <h4 class="tool-name-sm">Adobe Firefly</h4>
+              <p class="tool-maker-sm">Adobe</p>
+              <p class="tool-desc-sm">
+                Generative AI built into Adobe's creative suite. Commercially
+                safe images for professionals.
+              </p>
+              <a
+                href="https://firefly.adobe.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Leonardo AI image platform"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🎭</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Leonardo AI</h4>
+              <p class="tool-maker-sm">Leonardo.ai</p>
+              <p class="tool-desc-sm">
+                AI image platform with fine-tuned models for game assets,
+                concept art, and product design.
+              </p>
+              <a
+                href="https://leonardo.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+          </div>
+        </div>
+
+        <!-- Code -->
+        <div class="category-block" id="code" data-category="code">
+          <h3 class="category-title">
+            <span aria-hidden="true">💻</span> Code & Development
+          </h3>
+          <div class="tools-grid">
+            <article class="tool-card-sm" aria-label="Cursor AI code editor">
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">⌨️</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Cursor</h4>
+              <p class="tool-maker-sm">Anysphere</p>
+              <p class="tool-desc-sm">
+                AI-first code editor. Chat with your codebase, auto-complete
+                entire functions, and debug fast.
+              </p>
+              <a
+                href="https://cursor.sh"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Tabnine AI code assistant"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🔮</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Tabnine</h4>
+              <p class="tool-maker-sm">Tabnine Ltd.</p>
+              <p class="tool-desc-sm">
+                AI code completion tool with privacy-first approach. Works with
+                30+ languages and IDEs.
+              </p>
+              <a
+                href="https://tabnine.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Replit AI coding platform"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🚀</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Replit AI</h4>
+              <p class="tool-maker-sm">Replit Inc.</p>
+              <p class="tool-desc-sm">
+                Build and deploy full-stack apps in your browser with AI
+                assistance. Perfect for beginners.
+              </p>
+              <a
+                href="https://replit.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="v0 UI component generator"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">⚡</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">v0 by Vercel</h4>
+              <p class="tool-maker-sm">Vercel</p>
+              <p class="tool-desc-sm">
+                Generate React UI components from text. Copy production-ready
+                code in seconds.
+              </p>
+              <a
+                href="https://v0.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+          </div>
+        </div>
+
+        <!-- Video & Audio -->
+        <div class="category-block" id="video" data-category="video">
+          <h3 class="category-title">
+            <span aria-hidden="true">🎬</span> Video & Audio
+          </h3>
+          <div class="tools-grid">
+            <article
+              class="tool-card-sm"
+              aria-label="Runway AI video generation"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🎥</span>
+                <span class="badge badge-paid">Paid</span>
+              </div>
+              <h4 class="tool-name-sm">Runway Gen-3</h4>
+              <p class="tool-maker-sm">Runway ML</p>
+              <p class="tool-desc-sm">
+                Generate cinematic AI videos from text or images. Used by
+                professional filmmakers worldwide.
+              </p>
+              <a
+                href="https://runwayml.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article class="tool-card-sm" aria-label="ElevenLabs voice AI">
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🎙️</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">ElevenLabs</h4>
+              <p class="tool-maker-sm">ElevenLabs Inc.</p>
+              <p class="tool-desc-sm">
+                Ultra-realistic AI voice synthesis and cloning. Create
+                voiceovers in 29 languages.
+              </p>
+              <a
+                href="https://elevenlabs.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article
+              class="tool-card-sm"
+              aria-label="Sora video generation OpenAI"
+            >
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🌐</span>
+                <span class="badge badge-paid">Paid</span>
+              </div>
+              <h4 class="tool-name-sm">Sora</h4>
+              <p class="tool-maker-sm">OpenAI</p>
+              <p class="tool-desc-sm">
+                Text-to-video AI that creates realistic, high-quality video
+                clips up to one minute long.
+              </p>
+              <a
+                href="https://openai.com/sora"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+
+            <article class="tool-card-sm" aria-label="Udio AI music generation">
+              <div class="sm-top">
+                <span class="tool-icon-sm" aria-hidden="true">🎵</span>
+                <span class="badge badge-free">Free + Pro</span>
+              </div>
+              <h4 class="tool-name-sm">Udio</h4>
+              <p class="tool-maker-sm">Udio Inc.</p>
+              <p class="tool-desc-sm">
+                Generate full songs with vocals from text prompts. Any genre,
+                any mood, in seconds.
+              </p>
+              <a
+                href="https://udio.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="visit-btn-sm"
+                >Visit →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="AI Verse Home">
+            <span class="logo-icon">⬡</span>
+            <span class="logo-text">AI<strong>Verse</strong></span>
+          </a>
+          <p>
+            Curating the best AI tools for builders, creators, and thinkers.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h3 class="footer-nav-title">Directory</h3>
+          <ul role="list">
+            <li><a href="tools.html#writing">Writing Tools</a></li>
+            <li><a href="tools.html#image">Image Tools</a></li>
+            <li><a href="tools.html#code">Code Tools</a></li>
+            <li><a href="tools.html#video">Video & Audio</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav" aria-label="Secondary footer navigation">
+          <h3 class="footer-nav-title">Info</h3>
+          <ul role="list">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#trending">Trending</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          © 2026 AIVerse — Frontend Development Project | DecodeLabs Batch 2026
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
