@@ -54,8 +54,6 @@ AI-Verse/
 ├── about.html       # Project information and curation process
 ├── contact.html     # Contact form and validation
 ├── style.css        # Styling and responsive layouts
-├── script.js        # Navigation, search, filters, and form logic
-├── vercel.json      # Deployment configuration
 ├── homepage.png     # Website preview screenshot
 └── README.md        # Project documentation
 ```
@@ -68,7 +66,6 @@ AI-Verse/
 |---|---|
 | HTML5 | Semantic website structure |
 | CSS3 | Styling, layouts, and responsive design |
-| JavaScript | Search, filtering, navigation, and form validation |
 | Google Fonts | Outfit and Space Grotesk typography |
 | Vercel | Website deployment and hosting |
 | Git & GitHub | Version control and project hosting |
