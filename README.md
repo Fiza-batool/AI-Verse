@@ -13,7 +13,7 @@ AI Verse is a curated, multi-page directory of AI tools across writing, image ge
 
 ## 🖥️ Website Preview
 
-[![AI Verse Website Screenshot](homepage.png)](https://ai-verse-six.vercel.app/)
+[![AI Verse Website Screenshot](home.png)](https://ai-verse-six.vercel.app/)
 
 *Click the screenshot to visit the live website.*
 
